@@ -1,4 +1,4 @@
-# 🎨 SimpleDraw Compiler
+# 🎨 Mini Compiler
 
 Un compilador completo desarrollado en Python que traduce un lenguaje de dibujo vectorial simple a SVG.
 
@@ -10,8 +10,8 @@ Un compilador completo desarrollado en Python que traduce un lenguaje de dibujo 
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/simpledraw-compiler.git
-cd simpledraw-compiler
+git clone https://github.com/tu-usuario/Mini-compiler.git
+cd Mini-compiler
 
 # Ejecutar ejemplo
 python main.py
@@ -22,7 +22,7 @@ python main.py mi_dibujo.sd
 
 ## 📸 Screenshot
 
-```simpledraw
+```Mini
 Paper 100
 Pen 3
 
@@ -54,7 +54,7 @@ Código Fuente → Lexer → Parser → Tabla de Símbolos → Código Intermedi
 
 ### Comandos Básicos
 
-```simpledraw
+```Mini
 Paper 100          # Tamaño del lienzo
 Pen 5              # Grosor del trazo
 Line x1 y1 x2 y2   # Dibujar línea
@@ -64,7 +64,7 @@ Rect x y w h       # Dibujar rectángulo
 
 ### Ejemplo Completo
 
-```simpledraw
+```Mini
 # Configuración
 Paper 150
 Pen 2
@@ -84,7 +84,7 @@ Rect 45 75 15 15
 ## 📦 Estructura del Proyecto
 
 ```
-simpledraw-compiler/
+Mini-compiler/
 ├── lexer.py              # Analizador Léxico
 ├── parser.py             # Analizador Sintáctico
 ├── symbol_table.py       # Tabla de Símbolos
@@ -105,10 +105,10 @@ simpledraw-compiler/
 
 ```bash
 # 1. Clonar
-git clone https://github.com/tu-usuario/simpledraw-compiler.git
+git clone https://github.com/tu-usuario/Mini-compiler.git
 
 # 2. Entrar al directorio
-cd simpledraw-compiler
+cd Mini-compiler
 
 # 3. Ejecutar
 python main.py
@@ -132,9 +132,9 @@ python parser.py
 ### Desde Python
 
 ```python
-from main import SimpleDrawCompiler
+from main import MiniCompiler
 
-compiler = SimpleDrawCompiler()
+compiler = MiniCompiler()
 code = """
 Paper 100
 Pen 3
@@ -238,6 +238,6 @@ Si este proyecto te fue útil, ¡considera darle una estrella! ⭐
   
 **¡Hecho con ❤️ y mucho ☕!**
 
-[Reportar Bug](https://github.com/tu-usuario/simpledraw-compiler/issues) · [Solicitar Feature](https://github.com/tu-usuario/simpledraw-compiler/issues) · [Ver Demo](https://github.com/tu-usuario/simpledraw-compiler)
+[Reportar Bug](https://github.com/tu-usuario/Mini-compiler/issues) · [Solicitar Feature](https://github.com/tu-usuario/Mini-compiler/issues) · [Ver Demo](https://github.com/tu-usuario/Mini-compiler)
 
 </div>
