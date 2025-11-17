@@ -1,0 +1,11 @@
+# Círculos Concéntricos
+# Patrón de círculos dentro de círculos
+
+Paper 200
+Pen 2
+
+# Círculos de mayor a menor
+Circle 100 100 80
+Circle 100 100 60
+Circle 100 100 40
+Circle 100 100 20

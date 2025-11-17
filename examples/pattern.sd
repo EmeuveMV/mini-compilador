@@ -1,0 +1,14 @@
+# Patrón Geométrico
+# Cuadrados concéntricos con círculo central
+
+Paper 120
+Pen 1
+
+# Cuadrados de mayor a menor
+Rect 10 10 100 100
+Rect 20 20 80 80
+Rect 30 30 60 60
+Rect 40 40 40 40
+
+# Círculo central
+Circle 60 60 15

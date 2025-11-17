@@ -1,0 +1,7 @@
+# SimpleDraw Compiler - Requirements
+# Este proyecto NO requiere dependencias externas
+# Solo usa la biblioteca estándar de Python 3.7+
+
+# Para desarrollo (opcional):
+# pytest>=7.0.0
+# pytest-cov>=4.0.0

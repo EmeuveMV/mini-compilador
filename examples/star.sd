@@ -1,0 +1,12 @@
+# Estrella de 5 Puntas
+# Dibuja una estrella usando líneas
+
+Paper 150
+Pen 2
+
+# Estrella (pentágono conectado)
+Line 75 20 45 130
+Line 45 130 140 55
+Line 140 55 10 55
+Line 10 55 105 130
+Line 105 130 75 20

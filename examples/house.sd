@@ -1,0 +1,18 @@
+# Casa Simple
+# Dibuja una casa con puerta y ventana
+
+Paper 150
+Pen 2
+
+# Base de la casa (rectángulo)
+Rect 30 60 90 60
+
+# Techo (líneas formando triángulo)
+Line 30 60 75 20
+Line 75 20 120 60
+
+# Puerta
+Rect 60 90 30 30
+
+# Ventana
+Rect 45 75 15 15

@@ -1,0 +1,25 @@
+# Diseño Complejo
+# Combina múltiples formas geométricas
+
+Paper 200
+Pen 2
+
+# Marco exterior
+Rect 10 10 180 180
+
+# Círculo central grande
+Circle 100 100 60
+
+# Cuatro círculos pequeños en las esquinas
+Circle 40 40 15
+Circle 160 40 15
+Circle 40 160 15
+Circle 160 160 15
+
+# Cruz central
+Line 100 50 100 150
+Line 50 100 150 100
+
+# Diagonales
+Line 60 60 140 140
+Line 140 60 60 140
